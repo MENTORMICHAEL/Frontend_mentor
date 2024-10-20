@@ -7,6 +7,8 @@ The fronend mentor QR code project was an hepful project that made me put my kno
 
 
 [LINKS]
+Live site 
+{ https://Mentormichael.github.io/Frontend_mentor/}
 
 
 [BUILT WITH]
