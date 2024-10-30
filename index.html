@@ -11,10 +11,12 @@
 
   <style>
 
+
 body{
 background-color:hsl(212, 45%, 89%);
 }
 
+@media (min-width: 768px) and (orientation: landscape){
 
 #divc{
 background-color:hsl(0, 0%, 100%);
@@ -26,6 +28,47 @@ margin-left:25px;
 margin-right:25px;
 margin-top:20px;
 }
+}
+
+@media (min-resolution: 2dppx)
+{
+
+#divc{
+background-color:hsl(0, 0%, 100%);
+height:500px;
+text-align:center;
+padding:1px;
+border-radius:15px;
+margin-left:25px;
+margin-right:25px;
+margin-top:20px;
+}
+}
+
+
+@media (min-width: 1024px)
+
+{
+
+#divc{
+background-color:hsl(0, 0%, 100%);
+height:500px;
+text-align:center;
+padding:1px;
+border-radius:15px;
+margin-left:25px;
+margin-right:25px;
+margin-top:20px;
+}
+}
+
+
+
+
+
+
+
+
 
 h3{
 margin-right:20px;
@@ -46,9 +89,11 @@ margin-left:20px;
 font-family:sans;
 font-weight:bold;
 font-size:15px;
-color:hsl(216, 15%, 48%);
-
+color:hsl(216, 15%,)
 }
+
+
+
 
   </style>
 
@@ -59,7 +104,7 @@ color:hsl(216, 15%, 48%);
 </head>
 <body>
 <br><br>
- 
+
 <div id="divc">
 <p id="img">
 <img  src=" images/image-qr-code.png" alt="qrcode_image" width="280px" height="280px"/>
@@ -69,6 +114,8 @@ color:hsl(216, 15%, 48%);
 
   <p id="p1">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
 </div>
+<br>
+
 
 
 </body>
