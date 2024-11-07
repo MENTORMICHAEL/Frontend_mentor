@@ -2,21 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | QR code component</title>
 
 
+
+
+
   <style>
-
-
 body{
 background-color:hsl(212, 45%, 89%);
 }
 
-@media (min-width: 768px) and (orientation: landscape){
+
+@media only screen and (min-width: 600px) {
+#divc{
+background-color:hsl(0, 0%, 100%);
+height:500px;
+text-align:center;
+padding:1px;
+border-radius:15px;
+margin-left:195px;
+margin-right:195px;
+margin-top:200px;
+}
+}
+
+
+
+
+@media only screen and (min-width: 992px) {
+#divc{
+background-color:hsl(0, 0%, 100%);
+height:500px;
+text-align:center;
+padding:1px;
+border-radius:15px;
+margin-left:10px;
+margin-right:10px;
+margin-top:10px;
+}
+} 
+
+
+@media only screen and (max-width: 600px) {
 
 #divc{
 background-color:hsl(0, 0%, 100%);
@@ -27,45 +58,8 @@ border-radius:15px;
 margin-left:25px;
 margin-right:25px;
 margin-top:20px;
-}
-}
 
-@media (min-resolution: 2dppx)
 {
-
-#divc{
-background-color:hsl(0, 0%, 100%);
-height:500px;
-text-align:center;
-padding:1px;
-border-radius:15px;
-margin-left:25px;
-margin-right:25px;
-margin-top:20px;
-}
-}
-
-
-@media (min-width: 1024px)
-
-{
-
-#divc{
-background-color:hsl(0, 0%, 100%);
-height:500px;
-text-align:center;
-padding:1px;
-border-radius:15px;
-margin-left:25px;
-margin-right:25px;
-margin-top:20px;
-}
-}
-
-
-
-
-
 
 
 
@@ -103,7 +97,6 @@ color:hsl(216, 15%,)
 
 </head>
 <body>
-<br><br>
 
 <div id="divc">
 <p id="img">
