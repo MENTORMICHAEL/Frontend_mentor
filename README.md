@@ -32,5 +32,5 @@ TWITTER -
 
 [ACKNOWLEGDMENTS]
 
-Well it was my code instructor that made me dive into this really helpful project and she by the name Miss Seun, i appreciate her.
+Well it was my code instructor that made me dive into this really helpful project and she goes by the name Miss Seun, i appreciate her.
 
